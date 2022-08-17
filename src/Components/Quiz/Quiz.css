@@ -1,0 +1,178 @@
+.quiz {
+  text-align: center;
+
+
+}
+.quiz h1 {
+  padding: 2%;
+}
+.cardWithTimer{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width:95vw;
+  
+  margin: auto;
+}
+.timerFrame{
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content:flex-start;
+}
+.timer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid#2c3e50;
+  display: flex;
+  bottom:10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+}
+.quiz-section {
+  margin: auto;
+  background-color: #2c3e50;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 15px;
+  padding: 20px;
+  
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.play-again-btn{
+  margin-top: 60px;
+}
+
+.responsive{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+
+.question-section {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-rows: 30% 70%;
+}
+
+.question-count {
+  margin-bottom:1%;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+#total{
+  font-size: 16px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  padding: 20px;
+  position:relative;
+}
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+
+@media (max-width: 1000px){
+  .quiz-section{
+   
+    height: auto;
+    width: 80vw;
+  }
+  .timerFrame{
+    width: 80vw;
+  margin-bottom: 30px;}
+
+  .score-section{
+    font-size: 18px;
+  }
+
+  .responsive{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    justify-items: center;
+    row-gap: 10px;
+    padding-bottom: 60px;
+  }
+
+  .question-section{
+    grid-template-rows: 40% 60%;
+  }
+
+  .question-count span{
+    font-size: 21px;
+  }
+
+  #total{
+    font-size: 9px;
+  }
+
+  .question-text{
+    padding: 0 5px 5px 5px;
+    font-size: 12px;
+  }
+
+  button{
+    font-size: 12px; 
+  }
+}
