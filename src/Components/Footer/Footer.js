@@ -26,13 +26,13 @@ const Footer = () => {
                 <div className="contact-tile">
                   <FontAwesomeIcon className="icon" icon={faBuilding} />
                   <div className="text">
-                    Anand Arcade, Block C(G-4),MSR Layout,<br /> Chandrampalem, Visakhapatnam, <br />Andhra Pradesh 530048, India
+                    Rajive Nagarcolony , ellandu bypass road,<br /> Housing Board, Mahabubabad, <br />Telangana 506101, India
                   </div>
                 </div>
                 <div className="contact-tile">
                   <FontAwesomeIcon className="icon" icon={faEnvelope} />
                   <div className="text">
-                    <a href="mailto:support@technscience.com">support@technscience.com</a>
+                    <a href="mailto:chamanthnayak08@gmail.com">chamanthnayak08@gmail.com</a>
                   </div>
                 </div>
               </div>
@@ -48,10 +48,10 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 footer-social">
                 <h4>Follow Us</h4>
                 <div className="social-links">
-                  <a href="https://www.linkedin.com/company/tech-n-science" target="__blank" className="linkedin"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
-                  <a href="" className="twitter"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
-                  <a href="" className="instagram"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
-                  <a href="" className="facebook"><FontAwesomeIcon className="icon" icon={faFacebookF} /></a>
+                  <a href="https://www.linkedin.com/in/halavath-chamanth-79a037209/" target="__blank" className="linkedin"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
+                  <a href="https://www.instagram.com/_.__chamanth__._/" className="twitter"><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
+                  <a href="https://www.instagram.com/_.__chamanth__._/" className="instagram"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
+                  <a href="https://m.facebook.com/people/Halavath-Chamanth/100082725758490/" className="facebook"><FontAwesomeIcon className="icon" icon={faFacebookF} /></a>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="footer-bottom container" style={{ 'margin': '0 auto', 'cursor': 'default' }}>
           <div className="copyright">
-            &copy; Copyright <strong>Tech N Science</strong> 2022. All Rights Reserved.
+            &copy; Copyright <strong>Calculator for Mechanics-Chamanth</strong> 2022. All Rights Reserved.
           </div>
         </div>
       </footer>

@@ -49,15 +49,15 @@ export default function Contact() {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <title>Fun With Science - Tech N Science </title>
+        <title>Calculator For Mechanics </title>
         <meta
           name="description"
-          content="We at Tech N Science try to bring all sciences under one roof by providing JEE level questions and also calculators for different science formulas."
+          content="We at Calculator For Mechanics try to bring all sciences under one roof by providing JEE level questions and also calculators for different science formulas."
           data-react-helmet="true"
         />
         <meta
           name="keywords"
-          content="Classical Mechanics, calculator, physics, Tech n science, technscience, tech and science, Physics formula, Physics calculator, IIT-JEE, NEET,Tech N Science, tech, science, questions, technscienceweb, technscience, tech and science, technscience.com, Tech N Science, technscience. com, tech n science"
+          content="Classical Mechanics, calculator, physics, Calculator For Mechanics, technscience, tech and science, Physics formula, Physics calculator, IIT-JEE, NEET,Tech N Science, tech, science, questions, technscienceweb, technscience, tech and science, technscience.com, Tech N Science, technscience. com, tech n science"
         />
       </Helmet>
       <h1 className="contact-heading">Contact Us</h1>
@@ -70,16 +70,16 @@ export default function Contact() {
             <div className="contactInfo">
             <span className="fa fa-1x fa-map-marker-alt" />
               <p>
-                Anand Arcade,Block C(G-4),MSR Layout, Chandrampalem,VSKP,AP-48
+                rajive nagar colony,mahababubad,warangal,506101,Telangana.
               </p>
             </div>
             <div className="contactInfo">
             <span className="fa fa-1x fa-phone" />
-              <p>+91 8688785464</p>
+              <p>+91 7702346052</p>
             </div>
             <div className="contactInfo">
             <span className="fa fa-1x fa-envelope" />
-              <p>support@technscience.com</p>
+              <p>chamanthnayak08@gmail.com</p>
             </div>
           </div>
         </div>

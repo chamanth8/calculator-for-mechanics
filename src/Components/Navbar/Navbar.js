@@ -66,7 +66,7 @@ const Navbar = () => {
           </button>
           <NavLink to="/" className='nav-logo'>
             <img src={logo}  alt='logo' height='10%' width='10%' />
-            <span>&ensp; Tech<span>N</span>Science</span>
+            <span>&ensp; Calculator<span>for</span>Mechanics</span>
           </NavLink>
         </p>
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>

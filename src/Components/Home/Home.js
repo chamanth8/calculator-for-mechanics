@@ -59,7 +59,7 @@ const bookReaderStyle = {
         <title>Fun With Science - Tech N Science </title>
         <meta
           name='description'
-          content='We at Tech N Science try to bring all sciences under one roof by providing JEE level questions and also calculators for different science formulas.'
+          content='We at Calculator For Mechanics try to bring all sciences under one roof by providing JEE level questions and also calculators for different science formulas.'
           data-react-helmet='true'
         />
         <meta
@@ -82,7 +82,7 @@ const bookReaderStyle = {
         <div className='banner_container'>
           <div className='blur-background'>
             <h2 className='banner_text auto pt-5'>
-              We at Tech N Science try to bring all sciences under one roof by
+              We at Calculator with mechanics to bring all sciences under one roof by
               providing JEE level questions and also calculators for different
               science formulas.
               <br />
@@ -111,8 +111,8 @@ const bookReaderStyle = {
           <div className="aboutus-text-container">
             <img src={BrushStroke} alt="bg" className="aboutus-textbg-image" />
             <h4 className="about-us-txt">
-            Welcome to Tech N Science! A place for all science enthusiasts to explore.
-            We, over here at Tech N Science, strive to provide you with various solutions 
+            Welcome Calculator with mechanics! A place for all science enthusiasts to explore.
+            We, over here at Calculator with mechanics, strive to provide you with various solutions 
             regarding advanced maths and science problems.
             From Calculus to Thermodynamics to Periodic Elements and much more. 
             From Calculations to quizzes to trivias your one-stop solution for all.

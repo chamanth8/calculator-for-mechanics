@@ -81,7 +81,7 @@ const App = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Fun with Science - Tech N Science</title>
+        <title>Calculator For Mechanics</title>
         <meta
           name="description"
           content="Website for Physics formula and Physics calculator for IIT-JEE and NEET. In this website we provide free calculator
